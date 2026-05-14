@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="Theme.CalorieMoodCalculator" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.CalorieMood.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#121212</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash</item>
+        <item name="postSplashScreenTheme">@style/Theme.CalorieMoodCalculator</item>
+    </style>
+
+</resources>

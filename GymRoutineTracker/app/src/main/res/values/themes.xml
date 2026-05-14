@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.GymRoutineTracker" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.GymRoutineTracker.Splash" parent="Theme.SplashScreen">
+
+        <item name="windowSplashScreenBackground">#111111</item>
+
+        <item name="windowSplashScreenAnimatedIcon">
+            @drawable/ic_gym_splash
+        </item>
+
+        <item name="postSplashScreenTheme">
+            @style/Theme.GymRoutineTracker
+        </item>
+
+    </style>
+
+</resources>
